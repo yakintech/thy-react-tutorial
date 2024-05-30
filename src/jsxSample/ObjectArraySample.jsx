@@ -2,8 +2,6 @@ import React from 'react'
 import { productsData } from '../data/productsData'
 
 function ObjectArraySample() {
-
-
     return <>
         <table>
             <thead>
