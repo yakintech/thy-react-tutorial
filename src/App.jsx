@@ -14,11 +14,13 @@ import ProductsGrid from './mui/ProductsGrid'
 import ProductDetail from './mui/ProductDetail'
 import Cart from './pages/Cart'
 import { cartContext } from './context/CartContext'
+import RefSample from './forwardRefSample/RefSample'
 
 function App() {
 
   const { cart } = useContext(cartContext)
 
+  return <RefSample/>
 
   return <>
     <ul style={{ display: 'flex', justifyContent: "space-between" }}>
